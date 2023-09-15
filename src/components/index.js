@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Stats from './Stats';
 import About from './About';
 import Partners from './Partners';
+import Services from './Services';
 
 export {
     Navbar,
@@ -11,5 +12,6 @@ export {
     Hero,
     Stats,
     About,
-    Partners
+    Partners,
+    Services
 }

@@ -1,11 +1,9 @@
 import styles from './style'
-import { Hero, Stats, About, Partners } from '@/components/index';
+import { Hero, Stats, About, Partners, Services } from '@/components/index';
 
 export default function Home() {
   return (
     <main className="bg-gray-50 w-full overflow-hidden">
-      
-
       <div className={`bg-gray-50 ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
@@ -17,6 +15,7 @@ export default function Home() {
           <Stats />
           <About />
           <Partners />
+          <Services />
         </div>
       </div>
     </main>
