@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '@/app/style'
+import Getstarted from './Getstarted'
 
 const Hero = () => {
     return (
@@ -18,11 +19,11 @@ const Hero = () => {
                 <div className="flex flex-row justify-between items-center w-full">
                     <h1 className="flex-1 font-semibold text-[52px] text-gray-700 leading-[100px]">
                     An Independent <br className="sm:block hidden"/> {" "}
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-500 to-gray-200">Modern Business</span> <br /> {" "}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-200">Modern Business</span> {" "}
                       Development Company
                     </h1>
-                    <div className="flex md:mr-4 mr-0">
-                        hidden
+                    <div className="md:flex hidden md:mr-4 mr-0">
+                        <Getstarted />
                     </div>
                 </div>
 
