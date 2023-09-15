@@ -4,8 +4,6 @@
 import React, { useState } from 'react'
 import styles from '@/app/style'
 import { navLinks } from '@/constants'
-import menu from '../../public/assets/menu.png'
-import close from '../../public/assets/close.png'
 import Link from 'next/link'
 
 
@@ -28,7 +26,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`cursor-pointer text-[16px] text-gray-800 ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
+                className={`cursor-pointer text-[16px] text-gray-800 hover:border-b hover:border-gray-600 hover:text-gray-600 ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
               >
                 <Link href={`${nav.id}`}>
                   {nav.title}
@@ -37,7 +35,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <div className='sm:hidden flex flex-1 justify-end items-center'>
+          <div className={`sm:hidden flex flex-1 justify-end items-center`}>
           <img
               src={toggle ? '/assets/close.png' : '/assets/menu.png'}
               alt={toggle ? 'Close Menu' : 'Open Menu'}
@@ -50,7 +48,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`cursor-pointer text-[16px] text-gray-800 ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}
+                className={`cursor-pointer text-[16px] text-gray-800 hover:border-b hover:border-gray-600 hover:text-gray-600  ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}
               >
                 <Link href={`${nav.id}`}>
                   {nav.title}

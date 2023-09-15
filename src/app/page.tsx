@@ -1,3 +1,4 @@
+import Hero from '@/components/Hero'
 import styles from './style'
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
 
       <div className={`bg-gray-50 ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Hero
+          <Hero />
         </div>
       </div>
 
