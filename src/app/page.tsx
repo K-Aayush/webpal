@@ -1,5 +1,5 @@
 import styles from './style'
-import { Hero, Stats } from '@/components/index';
+import { Hero, Stats, About } from '@/components/index';
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <div className={`bg-gray-50 ${styles.flexStart} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
+          <About />
         </div>
       </div>
     </main>

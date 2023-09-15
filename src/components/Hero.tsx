@@ -19,7 +19,7 @@ const Hero = () => {
                 </div>
 
                 <div className="flex flex-row justify-between items-center w-full">
-                    <h1 className="flex-1 font-semibold text-[52px] text-gray-700 leading-[100px]">
+                    <h1 className="flex-1 font-semibold text-[52px] text-slate-900 leading-[100px]">
                     An Independent <br className="sm:block hidden"/> {" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300">Modern Business</span>
                     </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
                 </div>
 
                 <h1
-                className="font-semibold text-[52px] text-gray-700 leading-[100px]">
+                className="font-semibold text-[52px] text-slate-900 leading-[100px]">
                     Development Company.
                 </h1>
 

@@ -39,3 +39,21 @@ export const stats = [
         value: "5+",
     },
 ]
+
+export const features = [
+    {
+        id: "feature-1",
+        title: "Experience",
+        content: "Our team of experienced developers ensures exceptional experiences through their vast expertise in IT."
+    },
+    {
+        id: "feature-2",
+        title: "Success",
+        content: "With a proven track record, we've delivered hundreds of projects and continually update with technology."
+    },
+    {
+        id: "feature-3",
+        title: "Brand",
+        content: "Since our inception in 2018, we've served hundreds of clients, establishing Webpal as a trusted brand."
+    },
+]
