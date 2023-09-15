@@ -1,6 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styles from '@/app/style'
-import Getstarted from './Getstarted'
+import { Getstarted } from '@/components/index';
+import Image from 'next/image';
 
 const Hero = () => {
     return (
@@ -19,14 +21,34 @@ const Hero = () => {
                 <div className="flex flex-row justify-between items-center w-full">
                     <h1 className="flex-1 font-semibold text-[52px] text-gray-700 leading-[100px]">
                     An Independent <br className="sm:block hidden"/> {" "}
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-200">Modern Business</span> {" "}
-                      Development Company
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-200">Modern Business</span>
                     </h1>
                     <div className="md:flex hidden md:mr-4 mr-0">
                         <Getstarted />
                     </div>
                 </div>
 
+                <h1
+                className="font-semibold text-[52px] text-gray-700 leading-[100px]">
+                    Development Company.
+                </h1>
+
+                <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+                At Webpal, we sculpt your digital dreams into reality with a blend of artistry and precision, ensuring your vision comes to life pixel by pixel.    
+                </p>
+
+            </div>
+
+            <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+                <img 
+                    src={'/assets/development.png'}
+                    alt='development'
+                    className='w-[100%] h-[100%] relative z-[5]'
+                />
+            </div>
+
+            <div className={`${styles.flexCenter} sm:hidden`}>
+                <Getstarted />
             </div>
         </section>
     )

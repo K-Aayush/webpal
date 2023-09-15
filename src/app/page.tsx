@@ -1,5 +1,5 @@
-import Hero from '@/components/Hero'
 import styles from './style'
+import { Hero } from '@/components/index';
 
 export default function Home() {
   return (
