@@ -57,3 +57,27 @@ export const features = [
         content: "Since our inception in 2018, we've served hundreds of clients, establishing Webpal as a trusted brand."
     },
 ]
+
+export const partners = [
+    {
+        id: "partner-1",
+        image: "/assets/khalti-digital-wallet-logo.png"
+    },
+    {
+        id: "partner-2",
+        image: "/assets/Business-365.png"
+    },
+    {
+        id: "partner-3",
+        image: "/assets/odoo.png"
+    },
+    {
+        id: "partner-4",
+        image: "/assets/ps-it.png"
+    },
+    {
+        id: "partner-5",
+        image: "/assets/Ime.png"
+    },
+]
+
