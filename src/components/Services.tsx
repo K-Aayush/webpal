@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styles, { layout } from '@/app/style'
+import { Button } from './index'
 
 const Services = () => {
     return (
@@ -23,6 +24,7 @@ const Services = () => {
                     <p className={`${styles.paragraph} max-w-[480px]`}>
                         Discover Webpal for tailored websites, e-commerce, web apps, SEO, and more. We elevate your online presence with expertise and innovation. Elevate your brand with us today.
                     </p>
+                    <Button styles="mt-10" text="Learn More" />
                 </div>
             </section>
         </div>

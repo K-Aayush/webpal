@@ -5,6 +5,7 @@ import Stats from './Stats';
 import About from './About';
 import Partners from './Partners';
 import Services from './Services';
+import Button from './Button';
 
 export {
     Navbar,
@@ -13,5 +14,6 @@ export {
     Stats,
     About,
     Partners,
-    Services
+    Services,
+    Button
 }
