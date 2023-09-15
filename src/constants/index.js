@@ -16,3 +16,26 @@ export const navLinks = [
         title: "Contacts",
     },
 ]
+
+export const stats = [
+    {
+        id: "stats-1",
+        title: "Satisfied Clients",
+        value: "345+",
+    },
+    {
+        id: "stats-2",
+        title: "Projects Completed",
+        value: "400+",
+    },
+    {
+        id: "stats-3",
+        title: "Projects Launched",
+        value: "390+",
+    },
+    {
+        id: "stats-4",
+        title: "Years In Business",
+        value: "5+",
+    },
+]

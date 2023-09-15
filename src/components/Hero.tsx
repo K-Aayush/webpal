@@ -21,7 +21,7 @@ const Hero = () => {
                 <div className="flex flex-row justify-between items-center w-full">
                     <h1 className="flex-1 font-semibold text-[52px] text-gray-700 leading-[100px]">
                     An Independent <br className="sm:block hidden"/> {" "}
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-200">Modern Business</span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300">Modern Business</span>
                     </h1>
                     <div className="md:flex hidden md:mr-4 mr-0">
                         <Getstarted />
@@ -43,7 +43,7 @@ const Hero = () => {
                 <img 
                     src={'/assets/development.png'}
                     alt='development'
-                    className='w-[100%] h-[100%] relative z-[5]'
+                    className='w-[100%] h-[100%] relative z-[5] object-contain'
                 />
             </div>
 
