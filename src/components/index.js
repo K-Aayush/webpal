@@ -8,6 +8,12 @@ import Services from './Services';
 import Button from './Button';
 import Website from './Website';
 import App from './App';
+import DigitalMarketing from './DigitalMarketing';
+import Erp from './Erp';
+import Chatbot from './Chatbot';
+import CloudComputing from './CloudComputing';
+import Message from './Message';
+import Domain from './Domain';
 
 export {
     Navbar,
@@ -19,5 +25,11 @@ export {
     Services,
     Button,
     Website,
-    App
+    App,
+    DigitalMarketing,
+    Erp,
+    Chatbot,
+    CloudComputing,
+    Message,
+    Domain
 }
