@@ -7,6 +7,7 @@ import Partners from './Partners';
 import Services from './Services';
 import Button from './Button';
 import Website from './Website';
+import App from './App';
 
 export {
     Navbar,
@@ -17,5 +18,6 @@ export {
     Partners,
     Services,
     Button,
-    Website
+    Website,
+    App
 }
