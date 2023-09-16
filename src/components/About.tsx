@@ -13,7 +13,7 @@ const FeatureCard = ({ title, content, index }: featurecards) => {
     return (
         <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-2" : "mb-0"} bg-gradient-to-tr from-gray-200 to-gray-100 hover:bg-gradient-to-tr hover:from-gray-300 hover:to-gray-200 `}>
             <div className="flex-1 flex flex-col">
-                <h4 className="font-semibold text-slate-900 text-[18px] leading-[23px] mb-1">
+                <h4 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300 text-[18px] leading-[23px] mb-1">
                     {title}
                 </h4>
                 <p className="font-normal text-slate-800 text-[16px] leading-[24px] mb-1">

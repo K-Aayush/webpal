@@ -16,6 +16,7 @@ import Message from './Message';
 import Domain from './Domain';
 import Testimonials from './Testimonials';
 import FeedbackCard from './FeedbackCard';
+import Contact from './Contact';
 
 export {
     Navbar,
@@ -35,5 +36,6 @@ export {
     Message,
     Domain,
     Testimonials,
-    FeedbackCard
+    FeedbackCard,
+    Contact
 }

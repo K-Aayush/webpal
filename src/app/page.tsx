@@ -1,5 +1,5 @@
 import styles from './style'
-import { Hero, Stats, About, Partners, Services, Testimonials } from '@/components/index';
+import { Hero, Stats, About, Partners, Services, Testimonials, Contact } from '@/components/index';
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
           <Partners />
           <Services />
           <Testimonials />
+          <Contact />
         </div>
       </div>
     </main>

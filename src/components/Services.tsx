@@ -6,7 +6,7 @@ import styles from '@/app/style'
 const Services = () => {
     return (
         <div id="service">
-            <h2 className={`${styles.heading2} flex items-center justify-start`}>Services</h2>
+            <h2 className={`${styles.heading2} flex items-center justify-start`}>What Services Do We Provide?</h2>
             <Website />
             <App />
             <DigitalMarketing />
