@@ -21,7 +21,7 @@ const Domain = () => {
 
       <div className={layout.sectionImg}>
         <img
-          src="/assets/Domain Registration logo.png"
+          src="/assets/Domain.png"
           alt="Domain Registration"
           className="w-[100%] h-[100%] relative z-[5]"
         />

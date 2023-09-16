@@ -14,6 +14,8 @@ import Chatbot from './Chatbot';
 import CloudComputing from './CloudComputing';
 import Message from './Message';
 import Domain from './Domain';
+import Testimonials from './Testimonials';
+import FeedbackCard from './FeedbackCard';
 
 export {
     Navbar,
@@ -31,5 +33,7 @@ export {
     Chatbot,
     CloudComputing,
     Message,
-    Domain
+    Domain,
+    Testimonials,
+    FeedbackCard
 }

@@ -81,3 +81,30 @@ export const partners = [
     },
 ]
 
+export const feedback = [
+    {
+        id: "feedback-1",
+        name: "Sujan Subedi",
+        title: "CEO, Dollmandu",
+        content: "Great Website and software development company in Nepal. Such a great services. Very cost effective andtimely services."
+    },
+    {
+        id: "feedback-2",
+        name: "Karma Karki",
+        title: "Blogger",
+        content: "I was quite skeptical initially but after getting service i’m quite convinced, not only with their product but also their customer service. "
+    },
+    {
+        id: "feedback-3",
+        name: "Vision Shahi",
+        title: "GM, Jwala Store",
+        content: "Their ability to come up with unique solutions for the niche industry that we serve stands out. They are such a stunning professional devvelopers."
+    },
+    {
+        id: "feedback-4",
+        name: "Muhammad R",
+        title: "Code for Nation",
+        content: "I am lucky someone told me about Webpal. I am very happy and satisfied with their work. Highly experienced and supporting staff."
+    },
+]
+
