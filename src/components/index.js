@@ -17,6 +17,7 @@ import Domain from './Domain';
 import Testimonials from './Testimonials';
 import FeedbackCard from './FeedbackCard';
 import Contact from './Contact';
+import Footer from './Footer';
 
 export {
     Navbar,
@@ -37,5 +38,6 @@ export {
     Domain,
     Testimonials,
     FeedbackCard,
-    Contact
+    Contact,
+    Footer
 }

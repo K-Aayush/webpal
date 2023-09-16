@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styles from '@/app/style'
-import { Getstarted } from '@/components/index';
-import Image from 'next/image';
 
 const Hero = () => {
     return (
@@ -23,9 +21,6 @@ const Hero = () => {
                     An Independent <br className="sm:block hidden"/> {" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300">Modern Business</span>
                     </h1>
-                    {/* <div className="md:flex hidden md:mr-4 mr-0">
-                        <Getstarted />
-                    </div> */}
                 </div>
 
                 <h1
@@ -47,9 +42,6 @@ const Hero = () => {
                 />
             </div>
 
-            {/* <div className={`${styles.flexCenter} sm:hidden`}>
-                <Getstarted />
-            </div> */}
         </section>
     )
 }

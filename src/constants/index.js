@@ -102,3 +102,60 @@ export const feedback = [
     },
 ]
 
+export const footerLinks = [
+    {
+      title: "Company",
+      links: [
+        {
+          name: "Selton Street, Covent Garden,",
+        },
+        {
+          name: "London, UK, WC2H9JQ",
+        },
+        {
+          name: "Company Reg. No: 13836841",
+        },
+        {
+          name: "VAT Reg. No: GB405845887",
+        },
+      ],
+    },
+    {
+      title: "Support",
+      links: [
+        {
+          name: "+44 745 814 8535 (UK)",
+        },
+        {
+          name: "+977 980 109 6633 (Nepal)",
+        },
+        {
+          name: "mail@webpal.biz (Support)",
+        },
+        {
+          name: "sales@webpal.biz (Sales)",
+        },
+      ],
+    },
+    {
+      title: "Services",
+      links: [
+        {
+          name: "Website Development",
+          link: "/WebsiteDevelopment",
+        },
+        {
+          name: "Mobile App Development",
+          link: "https://www.hoobank.com/become-a-partner/",
+        },
+        {
+            name: "ERP Development",
+            link: "https://www.hoobank.com/become-a-partner/",
+          },
+          {
+            name: "Domain Registration",
+            link: "https://www.hoobank.com/become-a-partner/",
+          },
+      ],
+    },
+  ];

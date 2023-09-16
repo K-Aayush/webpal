@@ -3,7 +3,7 @@ import styles, { layout } from '@/app/style'
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contact'>
             <h2 className={`${styles.heading2} flex items-center justify-start`}>Contact Us</h2>
             <section className={layout.section}>
                 <div className={`${layout.sectionInfo} gap-5`}>

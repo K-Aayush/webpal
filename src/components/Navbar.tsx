@@ -28,7 +28,7 @@ const Navbar = () => {
                 key={nav.id}
                 className={`cursor-pointer text-[16px] text-gray-800 hover:border-b hover:border-gray-600 hover:text-gray-600 ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
               >
-                <Link href={`${nav.id}`}>
+                <Link href={`#${nav.id}`}>
                   {nav.title}
                 </Link>
               </li>
