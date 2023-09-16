@@ -96,15 +96,9 @@ export const feedback = [
     },
     {
         id: "feedback-3",
-        name: "Vision Shahi",
-        title: "GM, Jwala Store",
-        content: "Their ability to come up with unique solutions for the niche industry that we serve stands out. They are such a stunning professional devvelopers."
-    },
-    {
-        id: "feedback-4",
         name: "Muhammad R",
         title: "Code for Nation",
-        content: "I am lucky someone told me about Webpal. I am very happy and satisfied with their work. Highly experienced and supporting staff."
+        content: "I am lucky someone told me about Webpal. I am very happy and satisfied with their work. They have highly experienced and supporting staff."
     },
 ]
 
