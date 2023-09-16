@@ -1,16 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import { Website } from './index'
-import styles from '@/app/style'
+import styles, {layout} from '@/app/style'
+import Link from 'next/link'
+import { Button } from '.'
 
-const Services = () => {
-    return (
-        <div id="service">
+const Website = () => {
+  return (
+    <section className={layout.sectionReverse}>
+                <div className={layout.sectionImgReverse}>
+                    <img
+                        src="/assets/websitedesign.png"
+                        alt="websitedesign"
+                        className="w-[100%] h-[100%] relative z-[5]"
+                    />
+                </div>
 
-            <h2 className={`${styles.heading2} flex items-center justify-start`}>Services</h2>
-            <Website />
-
-            {/* <section className={layout.section}>
                 <div className={layout.sectionInfo}>
                     <h2 className={`${styles.heading2} text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
                         Website Develpoment
@@ -22,20 +26,8 @@ const Services = () => {
                         <Button styles="mt-10" text="Learn More" />
                     </Link>
                 </div>
-
-                <div className={layout.sectionImg}>
-                    <img
-                        src="/assets/websitedesign.png"
-                        alt="websitedesign"
-                        className="w-[100%] h-[100%] relative z-[5]"
-                    />
-                </div>
-
-            </section> */}
-
-
-        </div>
-    )
+            </section>
+  )
 }
 
-export default Services
+export default Website
