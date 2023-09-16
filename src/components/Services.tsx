@@ -11,9 +11,9 @@ const Services = () => {
             <App />
             <DigitalMarketing />
             <Domain />
-            <Erp />
-            <Chatbot />
             <CloudComputing />
+            <Chatbot />
+            <Erp />
             <Message />
         </div>
     )

@@ -22,7 +22,7 @@ const Erp = () => {
                 <p className={`${styles.paragraph} max-w-[480px]`}>
                 WebPal’s ERP software streamlines your business operations. With integrated tools for finance, HR, and more, we empower your organization to achieve efficiency, transparency, and growth. Elevate your business with WebPal ERP.
                 </p>
-                <Link href={'/DigitalMarketing'}>
+                <Link href={'/Erp'}>
                     <Button styles="mt-10" text="Learn More" />
                 </Link>
             </div>
