@@ -5,6 +5,8 @@ import React, { useState } from 'react'
 import styles from '@/app/style'
 import { navLinks } from '@/constants'
 import Link from 'next/link'
+import { navVariants } from '../utils/motion'
+import { motion } from 'framer-motion'
 
 
 const Navbar = () => {
@@ -14,7 +16,12 @@ const Navbar = () => {
     <div className={`bg-gray-50 ${styles.paddingX} ${styles.flexCenter}  fixed top-0 left-0 w-full z-[50]`}>
       <div className={`${styles.boxWidth}`}>
 
-        <nav className='w-full flex py-6 justify-between items-center'>
+        <motion.nav
+          variants={navVariants}
+          initial="hidden"
+          whileInView="show"
+          className='w-full flex py-6 justify-between items-center'
+        >
           <Link href="#home">
             <img
               src="/assets/webpallogo.png"
@@ -60,7 +67,7 @@ const Navbar = () => {
             </div>
           </div>
 
-        </nav>
+        </motion.nav>
 
       </div>
     </div>
