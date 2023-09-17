@@ -5,7 +5,7 @@ import React from 'react';
 import styles from '@/app/style';
 import { partners } from '../constants';
 import { motion } from 'framer-motion';
-import { letterVariants, lettercontainerVariants, delayVariantsy, containerVariants } from '../utils/motion'
+import { letterVariants, lettercontainerVariants, delayVariantsy, containerVariants, titleVariants } from '../utils/motion'
 
 const Partners = () => {
     const text = "Our Partners";
@@ -39,9 +39,7 @@ const Partners = () => {
                 className="flex flex-wrap justify-center">
                 {partners.map((partner) => (
                     <motion.div
-                        variants={delayVariantsy(0.5)}
-                        initial="hidden"
-                        whileInView="show"
+                        variants={titleVariants(0)}
                         key={partner.id}
                         className={`flex-1 flex justify-center items-center m-3`}
                     >

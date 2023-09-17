@@ -5,7 +5,7 @@ import React from 'react'
 import { Website, App, DigitalMarketing, Domain, Chatbot, Erp, CloudComputing, Message } from './index'
 import styles from '@/app/style'
 import { motion } from 'framer-motion';
-import { letterVariants, lettercontainerVariants, delayVariantsy, containerVariants } from '../utils/motion'
+import { letterVariants, lettercontainerVariants } from '../utils/motion'
 
 const Services = () => {
     const text = "What Services Do We Provide?";
