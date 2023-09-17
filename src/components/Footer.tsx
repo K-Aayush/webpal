@@ -1,11 +1,20 @@
+"use client"
+
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styles from '@/app/style'
 import { footerLinks } from '@/constants'
+import { motion } from 'framer-motion'
+import { containerVariants, delayVariantsy } from '../utils/motion'
 
 const Footer = () => {
     return (
-        <div className={`bg-gray-50 ${styles.flexStart} ${styles.paddingX}`}>
+        <motion.div
+            variants={delayVariantsy(0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.2 }}
+            className={`bg-gray-50 ${styles.flexStart} ${styles.paddingX}`}>
             <div className={`${styles.boxWidth}`}>
 
                 <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -49,7 +58,7 @@ const Footer = () => {
                     </div>
                 </section>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

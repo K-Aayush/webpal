@@ -73,30 +73,6 @@ export const imageVariants = (delay, direction) =>  ({
     show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: 'easeOut', delay, direction} },
 });
 
-export const staggerContainer = (staggerChildren, delayChildren) => ({
-    hidden: {},
-    show: {
-        transition: {
-            staggerChildren,
-            delayChildren,
-        },
-    },
-});
-
-export const ImageVariants = (direction) => ({
-    hidden: {
-        x: direction === 'left' ? '-100%' : '100%',
-    },
-    show: {
-        x: 0,
-        transition: {
-            type: 'spring',
-            duration: 1.8,
-            delay: 0.5,
-        },
-    },
-});
-
 export const lettercontainerVariants = {
     show: {
         transition: {
