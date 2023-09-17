@@ -28,7 +28,7 @@ export const containerVariants = {
     },
 };
 
-export const titleVariants = {
+export const titleVariants = (delay) => ({
     hidden: {
         opacity: 0,
         x: -20,
@@ -41,7 +41,7 @@ export const titleVariants = {
             ease: 'easeOut',
         },
     },
-};
+});
 
 export const delayVariants = (delay) => ({
     hidden: { opacity: 0, y: 20 },

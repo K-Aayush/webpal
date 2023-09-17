@@ -11,13 +11,12 @@ const Hero = () => {
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
 
             <motion.div
-             variants={delayVariants(0.5)}
-             initial="hidden"
-             whileInView="show"
-             viewport={{once: false, amount: 0.25}}
                 className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
             >
-                <div
+                <motion.div
+                    initial="hidden"
+                    whileInView="show"
+                    variants={delayVariants(0.5)}
                     className="flex flex-row items-center py-[6px] px-4 rounded-[10px] mb-2 bg-gradient-to-r from-gray-200 to-gray-100 mt-20 md:mt-10 sm:mt-0">
                     <p
 
@@ -25,10 +24,13 @@ const Hero = () => {
                         }>
                         Revving Up Productivity, Unleashing Potential.
                     </p>
-                </div>
+                </motion.div>
 
                 <div className="flex flex-row justify-between items-center w-full">
-                    <h1        
+                    <motion.h1
+                        initial="hidden"
+                        whileInView="show"
+                        variants={delayVariants(0.5)}
                         className="flex-1 font-semibold text-[52px] text-slate-900 leading-[100px]"
 
                     >
@@ -36,22 +38,28 @@ const Hero = () => {
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300">
                             Modern Business
                         </span>
-                    </h1>
+                    </motion.h1>
                 </div>
 
-                <h1
+                <motion.h1
+                    initial="hidden"
+                    whileInView="show"
+                    variants={delayVariants(0.5)}
                     className="font-semibold text-[52px] text-slate-900 leading-[100px]"
 
                 >
                     Development Company.
-                </h1>
+                </motion.h1>
 
-                <p
+                <motion.p
+                    initial="hidden"
+                    whileInView="show"
+                    variants={delayVariants(0.5)}
                     className={`${styles.paragraph} max-w-[470px] mt-5`}
 
                 >
                     At Webpal, we sculpt your digital dreams into reality with a blend of artistry and precision, ensuring your vision comes to life pixel by pixel.
-                </p>
+                </motion.p>
             </motion.div>
 
             <motion.div

@@ -16,7 +16,7 @@ const Stats = () => {
         >
             {stats.map((stat) => (
                 <motion.div
-                    variants={titleVariants}
+                    variants={titleVariants(0)}
                     key={stat.id}
                     className={`flex-1 flex justify-start items-center flex-row m-3`}
                 >
