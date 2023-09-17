@@ -5,7 +5,7 @@ import React from 'react'
 import styles, { layout } from '@/app/style'
 import { features } from '@/constants'
 import { motion } from 'framer-motion'
-import { delayVariants, containerVariants, titleVariants } from '../utils/motion'
+import { delayVariantsy, containerVariants, titleVariants } from '../utils/motion'
 
 interface FeatureCardsProps {
     title: string;
@@ -43,7 +43,7 @@ const About = () => {
                     className={styles.heading2}
                     initial="hidden"
                     whileInView="show"
-                    variants={delayVariants(0.5)}
+                    variants={delayVariantsy(0.2)}
                 >
                     We are your IT partners, <br className="sm:block hidden" />
                     We handle projects efficiently.
@@ -52,7 +52,7 @@ const About = () => {
                     className={`${styles.paragraph} max-w-[480px] mt-5`}
                     initial="hidden"
                     whileInView="show"
-                    variants={delayVariants(0.5)}
+                    variants={delayVariantsy(0.4)}
                 >
                     Webpal, a global IT leader, excels in web, mobile, and online business solutions, known for trustworthiness, quality, and client-focused innovation. Our passion is your success; contact us for exclusive software development services.
                 </motion.p>

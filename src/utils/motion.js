@@ -43,7 +43,7 @@ export const titleVariants = (delay) => ({
     },
 });
 
-export const delayVariants = (delay) => ({
+export const delayVariantsy = (delay) => ({
     hidden: { opacity: 0, y: 20 },
     show: {
       opacity: 1,
@@ -52,15 +52,26 @@ export const delayVariants = (delay) => ({
     },
   });
 
+  export const delayVariantsx = (delay, direction) => ({
+    hidden: { opacity: 0,
+        x: direction === "left" ? -20 : direction === "right" ? 20 : 0 },
+    show: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.7, ease: 'easeOut', delay, direction },
+    },
+  });
+
 export const textVariants = {
     hidden: { opacity: 0, x: -50 },
     show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: 'easeOut' } },
 };
 
-export const imageVariants = {
-    hidden: { opacity: 0, x: 50 },
-    show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: 'easeOut', delay: 0.5 } },
-};
+export const imageVariants = (delay, direction) =>  ({
+    hidden: { opacity: 0,
+         x: direction === "left" ? -50 : direction === "right" ? 50 : 0 },
+    show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: 'easeOut', delay, direction} },
+});
 
 export const staggerContainer = (staggerChildren, delayChildren) => ({
     hidden: {},
