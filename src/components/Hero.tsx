@@ -4,7 +4,7 @@
 import React from 'react'
 import styles from '@/app/style'
 import { motion } from 'framer-motion'
-import { imageVariants, delayVariants, textVariants } from "../utils/motion"
+import { imageVariants, delayVariants } from "../utils/motion"
 
 const Hero = () => {
     return (

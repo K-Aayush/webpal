@@ -23,7 +23,7 @@ export const containerVariants = {
     hidden: {},
     show: {
         transition: {
-            staggerChildren: 0.6,
+            staggerChildren: 0.5,
         },
     },
 };
@@ -85,3 +85,16 @@ export const ImageVariants = (direction) => ({
         },
     },
 });
+
+export const lettercontainerVariants = {
+    show: {
+        transition: {
+            staggerChildren: 0.1, 
+        },
+    },
+};
+
+export const letterVariants = {
+    hidden: { opacity: 0, x: -20 },
+    show: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+};
