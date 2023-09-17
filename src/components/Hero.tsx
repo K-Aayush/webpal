@@ -14,7 +14,7 @@ const Hero = () => {
                 className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
             >
                 <motion.div
-                    variants={delayVariantsy(0.5)}
+                    variants={delayVariantsy(0.2)}
                     initial="hidden"
                     whileInView="show"
                     className="flex flex-row items-center py-[6px] px-4 rounded-[10px] mb-2 bg-gradient-to-r from-gray-200 to-gray-100 mt-20 md:mt-10 sm:mt-0"
@@ -31,7 +31,7 @@ const Hero = () => {
                     <motion.h1
                         initial="hidden"
                         whileInView="show"
-                        variants={delayVariantsy(0.5)}
+                        variants={delayVariantsy(0.4)}
                         className="flex-1 font-semibold text-[52px] text-slate-900 leading-[100px]"
 
                     >
@@ -55,7 +55,7 @@ const Hero = () => {
                 <motion.p
                     initial="hidden"
                     whileInView="show"
-                    variants={delayVariantsy(0.5)}
+                    variants={delayVariantsy(0.6)}
                     className={`${styles.paragraph} max-w-[470px] mt-5`}
 
                 >
@@ -67,7 +67,7 @@ const Hero = () => {
                 className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
                 initial="hidden"
                 whileInView="show"
-                variants={imageVariants(0.5, "right")}
+                variants={imageVariants(0.4, "right")}
                 viewport={{ once: false, amount: 0.2 }}
             >
                 <img
