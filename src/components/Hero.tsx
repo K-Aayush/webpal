@@ -4,27 +4,31 @@
 import React from 'react'
 import styles from '@/app/style'
 import { motion } from 'framer-motion'
-import { containerVariants, textVariants, imageVariants } from "../utils/motion"
+import { imageVariants, delayVariants, textVariants } from "../utils/motion"
 
 const Hero = () => {
     return (
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
 
             <motion.div
+             variants={delayVariants(0.5)}
+             initial="hidden"
+             whileInView="show"
+             viewport={{once: false, amount: 0.25}}
                 className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
-                initial="hidden"
-                whileInView="show"
-                variants={textVariants}
-                viewport={{ once: false, amount: 0.2 }}
             >
-                <div className="flex flex-row items-center py-[6px] px-4 rounded-[10px] mb-2 bg-gradient-to-r from-gray-200 to-gray-100 mt-20 md:mt-10 sm:mt-0">
-                    <p className={`${styles.paragraph}`}>
+                <div
+                    className="flex flex-row items-center py-[6px] px-4 rounded-[10px] mb-2 bg-gradient-to-r from-gray-200 to-gray-100 mt-20 md:mt-10 sm:mt-0">
+                    <p
+
+                        className={`${styles.paragraph}`
+                        }>
                         Revving Up Productivity, Unleashing Potential.
                     </p>
                 </div>
 
                 <div className="flex flex-row justify-between items-center w-full">
-                    <h1
+                    <h1        
                         className="flex-1 font-semibold text-[52px] text-slate-900 leading-[100px]"
 
                     >
