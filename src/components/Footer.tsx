@@ -5,7 +5,8 @@ import React from 'react'
 import styles from '@/app/style'
 import { footerLinks } from '@/constants'
 import { motion } from 'framer-motion'
-import { containerVariants, delayVariantsy } from '../utils/motion'
+import { delayVariantsy } from '../utils/motion'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -42,7 +43,9 @@ const Footer = () => {
                                                 key={link.name}
                                                 className={`font-normal text-[16px] leading-[24px] text-gray-800 hover:border-b hover:border-gray-600 hover:text-gray-600 cursor-pointer ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"}`}
                                             >
-                                                {link.name}
+                                                <Link href={`#home`}>
+                                                    {link.name}
+                                                </Link>
                                             </li>
                                         ))}
                                     </ul>
