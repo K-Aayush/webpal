@@ -10,7 +10,7 @@ import { containerVariants, delayVariantsy } from "../../utils/motion"
 
 const DigitalMarketing = () => {
   return (
-    <main className="bg-gray-50 w-full overflow-hidden mt-10">
+    <main className="bg-gray-50 w-full overflow-hidden mt-16 sm:mt-8">
       <div className={`bg-gray-50 ${styles.flexStart} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbars />
@@ -39,7 +39,7 @@ const DigitalMarketing = () => {
                 initial="hidden"
                 whileInView="show"
               >
-                <h2 className={`${styles.heading2} mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
+                <h2 className={`${styles.heading2} my-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
                   Why Choose Us for Digital Marketing?
                 </h2>
                 <ul className='flex flex-col gap-5'>
@@ -73,13 +73,25 @@ const DigitalMarketing = () => {
                 variants={delayVariantsy(0.6)}
                 initial="hidden"
                 whileInView="show"
+                className="flex flex-col gap-3"
               >
-                <h2 className={`${styles.heading2} mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
-                Achieve Digital Success with Webpal
+                <h2 className={`${styles.heading2} mt-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
+                  Achieve Digital Success with Webpal
                 </h2>
                 <p className={`${styles.paragraph}`}>
-                At [Your Company Name], we don’t just execute digital marketing campaigns; we drive growth and deliver results. Your success is our priority, and we are committed to helping you achieve your digital marketing goals.
+                  At Webpal, we don’t just execute digital marketing campaigns; we drive growth and deliver results. Your success is our priority, and we are committed to helping you achieve your digital marketing goals.
                 </p>
+                <p className={`${styles.paragraph}`}>
+                Ready to take your brand to the next level? Contact us today and let’s embark on a journey of digital success together.
+                </p>
+                <div>
+                  <h2 className={`${styles.heading2}`}>
+                    +44 745 814 8535
+                  </h2>
+                  <p className={`${styles.paragraph}`}>
+                    Available 24/7 (WhatsApp or Direct Call)
+                  </p>
+                </div>
               </motion.div>
               <motion.div
                 variants={delayVariantsy(0.6)}
@@ -89,7 +101,7 @@ const DigitalMarketing = () => {
               >
                 <img
                   src="/assets/digital.jpg"
-                  alt="AppDevelopment"
+                  alt="DigitalMarketing"
                   className="w-[100%] h-[100%] object-cover rounded-lg"
                 />
               </motion.div>

@@ -10,7 +10,7 @@ import { containerVariants, delayVariantsy } from "../../utils/motion"
 
 const App = () => {
   return (
-    <main className="bg-gray-50 w-full overflow-hidden mt-10">
+    <main className="bg-gray-50 w-full overflow-hidden mt-16 sm:mt-8">
       <div className={`bg-gray-50 ${styles.flexStart} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbars />
@@ -39,7 +39,7 @@ const App = () => {
                 initial="hidden"
                 whileInView="show"
               >
-                <h2 className={`${styles.heading2} mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
+                <h2 className={`${styles.heading2} my-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
                   Why Choose Us?
                 </h2>
                 <ul className='flex flex-col gap-5'>
@@ -70,13 +70,25 @@ const App = () => {
                 variants={delayVariantsy(0.6)}
                 initial="hidden"
                 whileInView="show"
+                className="flex flex-col gap-3"
               >
-                <h2 className={`${styles.heading2} mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
+                <h2 className={`${styles.heading2} mt-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-800 to-cyan-300`}>
                   Your Success is Our Success
                 </h2>
                 <p className={`${styles.paragraph}`}>
                   When you choose Webpal for your app development needs, you’re not just getting a development partner; you’re gaining a strategic ally dedicated to your success. Our passion for crafting exceptional apps drives us to go the extra mile, ensuring that your app stands out in the competitive digital landscape.
                 </p>
+                <p className={`${styles.paragraph}`}>
+                  Ready to turn your app idea into reality? Contact us today, and let’s embark on a journey of innovation, creativity, and success together.
+                </p>
+                <div>
+                  <h2 className={`${styles.heading2}`}>
+                    +44 745 814 8535
+                  </h2>
+                  <p className={`${styles.paragraph}`}>
+                    Available 24/7 (WhatsApp or Direct Call)
+                  </p>
+                </div>
               </motion.div>
               <motion.div
                 variants={delayVariantsy(0.6)}
