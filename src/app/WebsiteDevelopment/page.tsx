@@ -97,7 +97,7 @@ const Website = () => {
                 whileInView="show"
               >
                 <img
-                  src="/assets/code.png"
+                  src="/assets/web.jpg"
                   alt="WebsiteDevelopment"
                   className="w-[100%] h-[100%] object-contain"
                 />
