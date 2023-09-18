@@ -40,7 +40,7 @@ const Erp = () => {
                 <motion.div
                     variants={delayVariantsx(0.6, "right")}
                 >
-                    <Link href={'/Erp'}>
+                    <Link href="/Erp">
                         <Button styles="mt-10" text="Learn More" />
                     </Link>
                 </motion.div>

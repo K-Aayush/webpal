@@ -30,7 +30,7 @@ const Message = () => {
                 <motion.div
                     variants={delayVariantsx(0.6, "left")}
                 >
-                    <Link href={'/Message'}>
+                    <Link href="/Message">
                         <Button styles="mt-10" text="Learn More" />
                     </Link>
                 </motion.div>

@@ -40,7 +40,7 @@ const DigitalMarketing = () => {
                 <motion.div
                     variants={delayVariantsx(0.6, "right")}
                 >
-                    <Link href={'/DigitalMarketing'}>
+                    <Link href="/DigitalMarketing">
                         <Button styles="mt-10" text="Learn More" />
                     </Link>
                 </motion.div>

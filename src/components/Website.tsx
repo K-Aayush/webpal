@@ -40,11 +40,10 @@ const Website = () => {
                 <motion.div
                     variants={delayVariantsx(0.6, "right")}
                 >
-                    <Link href={'/Website'}>
+                    <Link href="/WebsiteDevelopment">
                         <Button styles="mt-10" text="Learn More" />
                     </Link>
                 </motion.div>
-
             </div>
         </motion.section>
     )

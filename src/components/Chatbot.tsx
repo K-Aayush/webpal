@@ -30,7 +30,7 @@ const Chatbot = () => {
                 <motion.div
                     variants={delayVariantsx(0.6, "left")}
                 >
-                    <Link href={'/Chatbot'}>
+                    <Link href="/Chatbot">
                         <Button styles="mt-10" text="Learn More" />
                     </Link>
                 </motion.div>
