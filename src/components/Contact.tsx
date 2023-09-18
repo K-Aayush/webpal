@@ -38,7 +38,7 @@ const Contact = () => {
                     <div className="flex flex-col items-start justify-start gap-1">
                         <motion.h2
                             variants={delayVariantsx(0.2, "left")}
-                            className={`font-semibold text-[30px] leading-[32px] text-slate-800`}>
+                            className={`font-semibold text-[40px] leading-[32px] text-slate-800`}>
                             +44 745 814 8535
                         </motion.h2>
                         <motion.p

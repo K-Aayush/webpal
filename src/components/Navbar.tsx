@@ -41,7 +41,7 @@ const Navbar = () => {
             <img
               src="/assets/webpallogo.png"
               alt="webpal"
-              className="w-[120px] h-[40px]"
+              className="w-[120px]"
             />
           </Link>
 
