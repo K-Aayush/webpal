@@ -6,6 +6,7 @@ import styles, { layout } from '../style'
 import Navbars from '@/components/Navbars'
 import { motion } from "framer-motion"
 import { containerVariants, delayVariantsy } from "../../utils/motion"
+import Footers from '@/components/Footers'
 
 
 const DigitalMarketing = () => {
@@ -107,6 +108,7 @@ const DigitalMarketing = () => {
               </motion.div>
             </div>
           </motion.section>
+          <Footers />
         </div>
       </div>
     </main>
