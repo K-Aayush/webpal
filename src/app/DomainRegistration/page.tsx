@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 import { containerVariants, delayVariantsy } from "../../utils/motion"
 
 
-const App = () => {
+const Domain = () => {
   return (
     <main className="bg-gray-50 w-full overflow-hidden mt-16 sm:mt-8">
       <div className={`bg-gray-50 ${styles.flexStart} ${styles.paddingX}`}>
@@ -114,4 +114,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Domain

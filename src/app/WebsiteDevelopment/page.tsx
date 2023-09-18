@@ -79,7 +79,7 @@ const Website = () => {
                   With Webpal, you’re not just getting a website; you’re getting a partner dedicated to your success. Contact us today to discuss your website development needs, and let’s bring your vision to life on the web.
                 </p>
                 <p className={`${styles.paragraph}`}>
-                  Ready to turn your app idea into reality? Contact us today, and let’s embark on a journey of innovation, creativity, and success together.
+                  Ready to turn your Website idea into reality? Contact us today, and let’s embark on a journey of innovation, creativity, and success together.
                 </p>
                 <div>
                   <h2 className={`${styles.heading2}`}>
